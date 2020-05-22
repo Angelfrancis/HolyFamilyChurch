@@ -2,7 +2,7 @@ function cl(el)
 {
 var s=$(el).attr("src");
 $('#view').attr("src",s);
-$(el).css("filter","brightness(100%)");
+$(el).css("filter","brightness(0%)");
 $(el).css('position','relative');
 $(el).css("z-index","2");
 $(el).css("margin","0px 21px 0px 21px");
