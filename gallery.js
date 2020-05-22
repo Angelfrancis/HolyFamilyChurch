@@ -15,6 +15,8 @@ $('.storage > *:not('+el+')').css("margin","0px -17px");
 $('.storage > *:not('+el+')').css("box-shadow","0px -2px 6px 8px rgba(0,0,0,0.3)");
 $('.storage > *:not('+el+')').css("height","120");
 $('.storage > *:not('+el+')').css("width","10%");
+$(el).prevAll().css('transform','rotateY(30deg)');
+$(el).nextAll().css('transform','rotateY(-30deg)');
 }
 
 $(document).on("keydown",()=>
