@@ -55,3 +55,8 @@ $('#img1').css("width","13%");
 $('#img1').css("box-shadow","2px 2px 4px 4px rgba(147, 195, 237,0.4),-2px -2px 4px 4px rgba(147, 195, 237,0.4)");
 
 }
+$(window).ready(function()
+	{
+$('*').css('visibility','visible');	
+$('#view').css('visibility','hidden');
+});
